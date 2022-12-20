@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Overpass' rel='stylesheet'>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script type="text/javascript" src="uniquecheck.js"></script>
+  <title>Frontend Mentor | Interactive rating component</title>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body style="background-color: #141519">
+
+  <!-- Rating state start -->
+  <div class="content">
+    <div class="star">
+      <span class="dot">
+        <img src = "images/icon-star.svg" class="starimg" alt="star"/>
+      </span>
+    </div>
+    <div class="title"><h2>How did we do ?</h2></div>
+    <div class="text">please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</div>
+    <div class="note">
+      <a href="#" class="n1"><input type="checkbox" id="btnControl"><label for="btnControl" class="dot"><p class="absnote">1</p></label></a>
+      <a href="#" class="n2"><input type="checkbox" id="btnControl2"><label for="btnControl2" class="dot"><p class="absnote">2</p></label></a>
+      <a href="#" class="n3"><input type="checkbox" id="btnControl3"/><label for="btnControl3" class="dot"><p class="absnote">3</p></label></a>
+      <a href="#" class="n4"><input type="checkbox" id="btnControl4"/><label for="btnControl4" class="dot"><p class="absnote">4</p></label></a>
+      <a href="#" class="n5"><input type="checkbox" id="btnControl5"/><label for="btnControl5" class="dot"><p class="absnote">5</p></label></a>
+    </div>
+
+      <div class="submit">
+        <button id="btnloadnext">SUBMIT</button>
+
+    </div>
+    <div class="thanks">
+      <div class="thx">
+        <img src = "images/illustration-thank-you.svg" class="thanksimg" alt="star"/>
+      </div>
+      <div class="recap">
+        <span class="dot2"><p class="absnote2"></p></span>
+      </div>
+      <div class="titleThx"><h2>Thank You !</h2></div>
+      <div class="textThx"><p>We appreciate you taking the time to give rating.
+        If you ever need more support, don't hesitate to get in touch!</p></div>
+    </div>
+  </div>
+
+
+
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/GoodMorrrrning">Le mangeur de fleurs</a>.
+  </div>
+</body>
+</html>

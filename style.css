@@ -1,0 +1,205 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 45%;
+    width: 23%;
+    min-height: 450px;
+    min-width: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: rgb(37,45,55);
+    background: linear-gradient(90deg, rgba(37,45,55,1) 0%, rgba(35,42,51,1) 46%, rgba(37,45,55,1) 100%);
+    border-radius: 25px;
+}
+
+.dot{
+    height: 60px;
+    width: 60px;
+    background-color: #262f38;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+}
+.star{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.starimg{
+    width: 60%;
+    height: auto;
+    top: 47%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+}
+.title{
+    font-weight: bold;
+    margin-left: 5%;
+    color: #f4f7f8;
+    font-family: 'Overpass';
+}
+.text{
+    font-size: 15px;
+    line-height: 1.5;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #f4f7f8;
+    font-family: 'Overpass';
+}
+.note{
+    display: flex;
+    margin-top: 10%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.n1{
+    margin-left: 3%;
+}
+.n2{
+    margin-left: 3%;
+}
+.n3{
+    margin-left: 3%;
+}
+.n4{
+    margin-left: 3%;
+}
+.n5{
+    margin-left: 3%;
+}
+.absnote{
+    font-family: 'Overpass';
+    color: #f4f7f8;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+}
+#btnControl {
+    display: none;
+}
+#btnControl2 {
+    display: none;
+}
+#btnControl3 {
+    display: none;
+}
+#btnControl4{
+    display: none;
+}
+#btnControl5 {
+    display: none;
+}
+
+#btnControl:checked + label {
+    background-color: #FB7413;
+}
+#btnControl2:checked + label {
+    background-color: #FB7413;
+}
+#btnControl3:checked + label {
+    background-color: #FB7413;
+}
+#btnControl4:checked + label {
+    background-color: #FB7413;
+}
+#btnControl5:checked + label {
+    background-color: #FB7413;
+}
+.dot:hover{
+    background-color: #959EAC;
+}
+.submit{
+    position: absolute;
+    display: flex;
+    bottom: 4%;
+    left: 50%;
+    width: 80%;
+    justify-content: center;
+    align-content: end;
+    transform: translate(-50%);
+}
+.submit button{
+    border-radius: 25px;
+    font-weight: bold;
+    border: none;
+    color: #f4f7f8;
+    font-family: 'Overpass';
+    background-color: #FB7413;
+    width:100%;
+    height: 50px;
+}
+.submit button:hover{
+    background-color: #f4f7f8;
+    color: #FB7413;
+}
+.thanks{
+    display: flex;
+    flex-direction: column;
+}
+.thx{
+    margin-top: 12%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 150px;
+    align-self: center;
+}
+.recap{
+    display: flex;
+    justify-content: center;
+}
+.dot2{
+    margin-top: 10%;
+    height: 35px;
+    width: 40%;
+    background-color: #262f38;
+    border-radius: 50px;
+    display: inline-block;
+    position: relative;
+}
+.absnote2{
+    white-space: nowrap;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    font-family: 'Overpass';
+    color: #FB7413;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    display: inline-block;
+}
+.titleThx{
+    margin-top: 5%;
+    font-weight: bold;
+    color: #f4f7f8;
+    font-family: 'Overpass';
+    display: flex;
+    justify-content: center;
+}
+.textThx{
+    margin-right: 5%;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-left: 5%;
+    color: #f4f7f8;
+    font-family: 'Overpass';
+}
+.attribution{
+    left: 50%;
+    position: absolute;
+    bottom: 25px;
+    color: #f4f7f8;
+    transform: translate(-50%, -25%);
+    font-family: 'Overpass';
+}
