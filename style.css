@@ -3,7 +3,7 @@
     flex-direction: column;
     height: 40%;
     width: 23%;
-    min-height: 450px;
+    min-height: 400px;
     min-width: 400px;
     position: absolute;
     left: 50%;
@@ -53,7 +53,7 @@
 }
 .note{
     display: flex;
-    margin-top: 10%;
+    margin-top: 6%;
     align-items: center;
     justify-content: center;
     position: relative;
